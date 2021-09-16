@@ -1,0 +1,35 @@
+.example-container {
+  margin-top: 10px;
+  /* background-color: #f0f3fb; */
+  height: 400px;
+  overflow: auto;
+  width: 100%;
+  border-radius: 6px;
+}
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+table {
+  width: 100%;
+  border-radius: 6px;
+}
+th {
+  background-color: lightgray;
+}
+.header {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+h2 span {
+  background: #fff;
+  padding: 0 10px;
+}

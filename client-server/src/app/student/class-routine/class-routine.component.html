@@ -1,0 +1,14 @@
+<mat-card class="m-3 p-4">
+  <ng-template #loader>
+    <mat-spinner class="mx-auto" value="100" diameter="40"></mat-spinner>
+  </ng-template>
+  <ng-container *ngIf="(session$ | async)?.data.session as session; else loader">
+    <div style="text-align: center">
+      <h2>Class Routine</h2>
+      <h4>Session : {{ session.session }}</h4>
+    </div>
+    <div class="text-center">
+      <img src="{{ session.routine_uri }}" alt="Routine Image" class="img-fluid" style="max-width: 75%;" />
+    </div>
+  </ng-container>
+</mat-card>
