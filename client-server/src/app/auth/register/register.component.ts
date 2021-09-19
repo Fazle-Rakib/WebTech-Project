@@ -121,9 +121,10 @@ export class RegisterComponent implements OnInit {
 
     let token: string = this.route.snapshot.params['token'];
     let role: string = this.route.snapshot.params['role'];
+    let email: string = this.authenticationForm.value.email;
     // let registrationBody: RegistrationBody = { name, password, profile };
     let registrationBody: RegistrationBodyNew = {
-      email: 'test4@ex.com',
+      email,
       name,
       password,
       profile,
