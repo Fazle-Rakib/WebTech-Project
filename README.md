@@ -165,37 +165,35 @@ After creating up a routine, a teacher can post the routine session-wise. These 
 ## Data Visualization
 
 
-- Teachers info
+### Teachers info
 
 ![This is an image](./images/T_L.png)
 
 
-- Students info
+### Students info
 
 ![This is an image](./images/S_L.png)
 
 
-- Sessions info
+### Sessions info
 
 ![This is an image](./images/Session.png)
 
-- Courses info
+### Courses info
 
 ![This is an image](./images/Courses.png)
 
 
-- A Complete Routine
+### A Complete Routine
 
 ![This is an image](./images/ClassRoutine.png)
 
 
-- Session-wise Routine
+### Session-wise Routine
 
 ![This is an image](./images/addRoutine.png)
 
 ## Given Requirements
-
-#
 
 - [Minimum 5 Data Tables](#database)
 - Data visualization from multiple table
