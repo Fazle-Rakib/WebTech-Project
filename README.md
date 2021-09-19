@@ -80,7 +80,7 @@ To register an user, we collect all the the data and insert the data into data t
 
 ![This is an image](./images/user_T.png)
 
-In this table, basic information like `id, name, password and role` are stored. Other basic information like:
+In this table, basic information like `id, name, password and role` are stored in the `User` table. Other basic information like:
 
 - In `Student` table we store: `registration number, sessionId`
 - In `Teacher` table we store : `designation`
