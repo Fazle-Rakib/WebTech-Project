@@ -9,7 +9,7 @@ our resources.
 
 ## Database
 
-This project consist of 7 data tables. Which are :
+This project consists of 7 data tables. Which are :
 
 ![This is an image](./images/finalDB.png)
 
